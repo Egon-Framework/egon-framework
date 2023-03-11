@@ -22,7 +22,7 @@ theme:
 extra:
   analytics:
     provider: google
-    property: !ENV ANALYTICS_ID
+    property: G-9GMVVZ89P0
     feedback:
       title: Was this page helpful?
       ratings:
