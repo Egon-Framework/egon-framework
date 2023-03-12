@@ -25,7 +25,9 @@ jobs:
         run: pip install mkdocs-material
 
       - name: Build Docs
-        run: ANALYTICS_ID=${{ secrets.GOOGLE_ANALYTICS_ID }} mkdocs build
+        env:
+          - ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+        run: mkdocs build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
