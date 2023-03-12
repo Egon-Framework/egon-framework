@@ -51,8 +51,5 @@ extra:
       analytics:
         name: Google Analytics
         checked: true
-      github:
-        name: GitHub
-        checked: true
   generator: false
 copyright: Copyright &copy; – <a href="#__consent">Change cookie settings</a>
