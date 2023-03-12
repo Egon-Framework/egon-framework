@@ -26,7 +26,7 @@ jobs:
 
       - name: Build Docs
         env:
-          - ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+          ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
         run: mkdocs build
 
       - name: Upload artifact
