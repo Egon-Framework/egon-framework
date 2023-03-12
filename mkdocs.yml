@@ -18,6 +18,8 @@ theme:
     - offline
     - search
     - mkdocstrings
+extra_css:
+  - _css/hide_sidebar.css
 extra:
   analytics:
     provider: google
