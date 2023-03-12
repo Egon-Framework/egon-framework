@@ -13,7 +13,6 @@ theme:
     - content.code.copy
     - navigation.instant
     - navigation.tabs
-    - navigation.top
     - search.suggest
   plugins:
     - offline
