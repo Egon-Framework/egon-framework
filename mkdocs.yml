@@ -55,4 +55,9 @@ extra:
         name: Google Analytics
         checked: true
   generator: false
+nav:
+  - index.md
+  - Getting Started:
+      - getting_started/install_setup.md
+  - technical_references.md
 copyright: Copyright &copy; – <a href="#__consent">Change cookie settings</a>
