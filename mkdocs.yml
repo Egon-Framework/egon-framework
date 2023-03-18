@@ -18,7 +18,10 @@ theme:
     - offline
     - search
     - mkdocstrings
+markdown_extensions:
+  - neoteroi.cards
 extra_css:
+  - _css/neoteroi/neoteroi-mkdocs.css
   - _css/hide_sidebar.css
 extra:
   analytics:
