@@ -1,9 +1,3 @@
----
-hide:
-- navigation
-- toc
----
-
 # Technical References
 
 Detailed documentation and design documents are provided below for each component in the Egon Framework.
