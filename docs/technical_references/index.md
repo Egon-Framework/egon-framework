@@ -10,15 +10,15 @@ For detailed references on a specific application in the Egon Framework, select 
 
 - title: Egon
   content: The core Python package of the Egon Framework used to build and deploy parallel software.
-  url: ./coming_soon.md
+  url: ../egon
 
 - title: Egon Dashboard
   content: A lightweight web dashboard for visualizing running Egon pipelines.
-  url: ./coming_soon.md
+  url: ../egon-dashboard
 
 - title: Status API Server  
   content: A RESTful API server for monitoring the status of Egon jobs and processes.
-  url: ./coming_soon.md
+  url: ../status-api-server
 
 ::/cards::
 
@@ -31,6 +31,6 @@ High level design documentation for Egon interfaces and services.
 
 - title: Status API Contract  
   content: OpenAPI specification for the Egon Status API.
-  url: ./coming_soon.md
+  url: ../status-api-schema
 
 ::/cards::
