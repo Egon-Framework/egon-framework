@@ -1,0 +1,12 @@
+[submodule "docs/technical_references/egon"]
+	path = docs/technical_references/egon
+	url = https://github.com/egon-framework/egon
+[submodule "docs/technical_references/dashboard"]
+	path = docs/technical_references/dashboard
+	url = https://github.com/Egon-Framework/dashboard
+[submodule "docs/technical_references/status-api-server"]
+	path = docs/technical_references/status-api-server
+	url = https://github.com/Egon-Framework/status-api-server
+[submodule "docs/technical_references/status-api-schema"]
+	path = docs/technical_references/status-api-schema
+	url = https://github.com/Egon-Framework/status-api-schema

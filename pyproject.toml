@@ -1,0 +1,16 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "egon-framework-github-io"
+version = "0.0.0"
+description = "Documentation for the Egon Framework."
+authors = ["Daniel Perrefort"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+neoteroi-mkdocs = "1.0.0"
+mkdocs-material = "9.1.6"
+mkdocs-monorepo-plugin = "1.0.4"
+mkdocstrings = "0.21.2"

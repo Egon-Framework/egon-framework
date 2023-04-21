@@ -14,11 +14,15 @@ theme:
     - navigation.instant
     - navigation.tabs
     - search.suggest
-  plugins:
-    - offline
-    - search
-    - mkdocstrings
+plugins:
+  - offline
+  - search
+  - mkdocstrings
+  - monorepo
+markdown_extensions:
+  - neoteroi.cards
 extra_css:
+  - _css/neoteroi/neoteroi-mkdocs.css
   - _css/hide_sidebar.css
 extra:
   analytics:
@@ -52,4 +56,14 @@ extra:
         name: Google Analytics
         checked: true
   generator: false
+nav:
+  - index.md
+  - Getting Started:
+      - getting_started/install_setup.md
+  - Technical References:
+    - technical_references/index.md
+    - Egon: '!include docs/technical_references/egon/mkdocs.yml'
+    - Egon Dashboard: '!include docs/technical_references/dashboard/mkdocs.yml'
+    - Status API Server: '!include docs/technical_references/status-api-server/mkdocs.yml'
+    - Status API Contract: '!include docs/technical_references/status-api-schema/mkdocs.yml'
 copyright: Copyright &copy; – <a href="#__consent">Change cookie settings</a>
