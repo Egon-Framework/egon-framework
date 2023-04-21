@@ -1,6 +1,5 @@
 # IDE and package manager files
-.idea
-*.lock
+.idea/
 
-# Compiled site documents
-site
+# Compiled source code
+site/
