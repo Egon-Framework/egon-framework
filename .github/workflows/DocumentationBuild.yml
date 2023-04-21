@@ -34,7 +34,7 @@ jobs:
       - name: Build Docs
         env:
           ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
-        run: mkdocs build
+        run: mkdocs build --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
