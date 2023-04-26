@@ -1,6 +1,16 @@
 # Technical References
 
-Detailed documentation and design documents are provided below for each component in the Egon Framework.
+The Egon Framework leverages multiple running services to facilitate job deployment and monitoring.
+An example deployment is provided in the diagram below.
+Each running service comes bundled with a dedicated commandline utility for configuring/deploying the running service.
+
+<figure markdown>
+  ![](../_assets/imgs/egon_design_diagram.svg)
+  <figcaption>
+    <b>Figure 1</b> A high level overview demonstrating the directing of network communication between components of the Egon Framework in a distributed environment.
+  </figcaption>
+</figure>
+
 
 ## Applications and Components
 
@@ -12,9 +22,13 @@ For detailed references on a specific application in the Egon Framework, select 
   content: The core Python package of the Egon Framework used to build and deploy parallel software.
   url: ../egon
 
+- title: Egon Worker
+  content: The Egon parallelization engine responsible for spawning and managing child processes.
+  url: ../egon-worker
+
 - title: Egon Dashboard
   content: A lightweight web dashboard for visualizing running Egon pipelines.
-  url: ../egon-dashboard
+  url: ../dashboard
 
 - title: Status API Server  
   content: A RESTful API server for monitoring the status of Egon jobs and processes.
