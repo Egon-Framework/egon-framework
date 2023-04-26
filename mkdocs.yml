@@ -21,9 +21,10 @@ plugins:
   - monorepo
 markdown_extensions:
   - neoteroi.cards
+  - md_in_html
 extra_css:
-  - _css/neoteroi/neoteroi-mkdocs.css
-  - _css/hide_sidebar.css
+  - _assets/css/neoteroi/neoteroi-mkdocs.css
+  - _assets/css/hide_sidebar.css
 extra:
   analytics:
     provider: google
