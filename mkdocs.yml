@@ -64,6 +64,7 @@ nav:
   - Technical References:
     - technical_references/index.md
     - Egon: '!include docs/technical_references/egon/mkdocs.yml'
+    - Egon Worker: '!include docs/technical_references/egon-worker/mkdocs.yml'
     - Egon Dashboard: '!include docs/technical_references/dashboard/mkdocs.yml'
     - Status API Server: '!include docs/technical_references/status-api-server/mkdocs.yml'
     - Status API Contract: '!include docs/technical_references/status-api-schema/mkdocs.yml'

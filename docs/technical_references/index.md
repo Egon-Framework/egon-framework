@@ -22,6 +22,10 @@ For detailed references on a specific application in the Egon Framework, select 
   content: The core Python package of the Egon Framework used to build and deploy parallel software.
   url: ../egon
 
+- title: Egon Worker
+  content: The Egon parallelization engine responsible for spawning and managing child processes.
+  url: ../egon-worker
+
 - title: Egon Dashboard
   content: A lightweight web dashboard for visualizing running Egon pipelines.
   url: ../dashboard
