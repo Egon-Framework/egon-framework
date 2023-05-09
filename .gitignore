@@ -3,3 +3,6 @@
 
 # Compiled source code
 site/
+
+# Petry lock files
+*.lock

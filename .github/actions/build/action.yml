@@ -41,7 +41,7 @@ runs:
       run: mkdocs build --site-dir ${{ inputs.output-dir }}
 
     - name: Upload artifact
-      if: ${{ inputs.upload-artifact }}
+      if: ${{ inputs.artifact-name }}
       uses: actions/upload-pages-artifact@v1
       with:
         name: ${{ inputs.artifact-name }}
