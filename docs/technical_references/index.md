@@ -7,7 +7,9 @@ Each running service comes bundled with a dedicated commandline utility for conf
 <figure markdown>
   ![](../_assets/imgs/egon_design_diagram.svg)
   <figcaption>
-    <b>Figure 1</b> A high level overview demonstrating the directing of network communication between components of the Egon Framework in a distributed environment.
+    <b>Figure 1</b> A networking diagram detailing communication between components of the Egon Framework in a distributed computing environment.
+    Egon components (blue) are run across several virtual or physical machines (grey).
+    One or more service nodes host Egon services used to support the <i>worker</i> processes running on compute machines.
   </figcaption>
 </figure>
 

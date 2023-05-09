@@ -13,4 +13,4 @@ python = "^3.11"
 neoteroi-mkdocs = "1.0.0"
 mkdocs-material = "9.1.6"
 mkdocs-monorepo-plugin = "1.0.4"
-mkdocstrings = "0.21.2"
+mkdocstrings = { version = "0.21.2", extras = ["python"] }
