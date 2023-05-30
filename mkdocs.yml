@@ -19,6 +19,8 @@ plugins:
   - search
   - mkdocstrings
   - monorepo
+  - swagger-ui-tag:
+      extra_css: [_assets/css/swagger.css]
 markdown_extensions:
   - neoteroi.cards
   - md_in_html
@@ -68,4 +70,4 @@ nav:
     - Egon Dashboard: '!include docs/technical_references/dashboard/mkdocs.yml'
     - Status API Server: '!include docs/technical_references/status-api-server/mkdocs.yml'
     - Status API Contract: '!include docs/technical_references/status-api-schema/mkdocs.yml'
-copyright: Copyright &copy; – <a href="#__consent">Change cookie settings</a>
+copyright: Copyright &copy; The Egon Framework – <a href="#__consent">Change cookie settings</a>
